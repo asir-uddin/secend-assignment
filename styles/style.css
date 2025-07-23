@@ -1,0 +1,36 @@
+
+*{
+    margin: 0;
+}
+.inter-normal {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+/* navber */
+
+.navber{
+    max-width: 1140px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+.nav-logo{
+    width: 135px;
+    height: 82px;
+}
+.nav-item{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-item li{
+    list-style: none;
+    margin-right: 48px;
+}
