@@ -87,4 +87,87 @@
     letter-spacing: 0;
     line-height: 1.7rem;
 }
+
+/* main section */
+/* our plant card */
+.body{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+.our-plan{
+    text-align: center;
+}
+
+.card-box{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 20px;
+    row-gap: 30px;
+    margin: 50px 0 210px;
+}
+.card-contain{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+
+/* flower and plant */
+.flower-plant-wrapper{
+    position: relative;
+}
+.trust-badge{
+    width: 286px;
+    height: 286px;
+    position: absolute;
+    top: -133px;
+    left: 353px;
+}
+.flower-plant-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    margin-bottom: 134px;
+}
+.flower-dev img{
+    width: 540px;
+    height: 590px;
+}
+
+/* latest deals */
+.offer-box{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 10px;
+    height: 450px;
+    margin: 120px auto;
+}
+.offer-box-child-1{
+    background-image: url(../B12A02-Responsive-Flowers/assets/deal-bloom.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+    align-content: center;
+}
+.offer-box-child-2{
+    background-image: url(../B12A02-Responsive-Flowers/assets/deal-ana.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    grid-row: 2;
+    text-align: center;
+    align-content: center;
+}
+.offer-box-child-3{
+    background-image: url(../B12A02-Responsive-Flowers/assets/deal-zabo.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    grid-row: 1 / span 2;
+    text-align: center;
+    align-content: center;
+}
+  
     
