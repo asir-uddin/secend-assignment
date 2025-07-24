@@ -93,6 +93,7 @@
 .body{
     max-width: 1140px;
     margin: 0 auto;
+    position: relative;
 }
 .our-plan{
     text-align: center;
@@ -113,9 +114,9 @@
 }
 
 /* flower and plant */
-.flower-plant-wrapper{
+/* .flower-plant-wrapper{
     position: relative;
-}
+} */
 .trust-badge{
     width: 286px;
     height: 286px;
@@ -166,6 +167,17 @@
     background-repeat: no-repeat;
     background-position: center;
     grid-row: 1 / span 2;
+    text-align: center;
+    align-content: center;
+}
+
+/* join us */
+.join-us{
+    background-image: url(../B12A02-Responsive-Flowers/assets/news-letter-bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 550px;
     text-align: center;
     align-content: center;
 }
