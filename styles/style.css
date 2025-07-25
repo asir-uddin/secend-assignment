@@ -245,7 +245,7 @@
     width: 100%;
     height: 100%;
     background-color: black;
-    opacity: 20%;
+    opacity: 48%;
     border-radius: 14px;
     top: 0;
 }
@@ -393,6 +393,66 @@
     padding: 8px 10px;
     font-size: 14px;
     line-height: 16px;
+    }
+
+    /* flower and plant */
+    .flower-plant-container{
+    grid-template-columns: 1fr;
+    gap: 18px;
+    }
+    .flower-dev img{
+        width: 100%;
+        height: 100%;
+    }
+    .flower-content h3{
+    font-size: 1.5rem;
+    line-height: 1.8rem;
+    }
+
+    /* latest deal */
+    .offer-box{
+    grid-template-columns: 1fr;
+    margin: 50px auto;
+    }
+    .offer-box-child-2,
+    .offer-box-child-3  {
+    grid-row: auto;
+    }
+    .deco h4{
+    font-size: 20px;
+    line-height: 23px;
+    margin-bottom: 16px;
+    }
+    .trust-badge{
+        display: none;
+    }
+
+    /* join the colorfull beach */
+    .join-wrapper h3{
+    font-size: 1.3rem;
+    line-height: 1.6rem;
+    }
+    .btn-style{
+        width: 300px;
+    }
+    .btn-email{
+    width: 45%;
+    font-size: 1rem;
+    line-height: 1.3rem;
+    }
+    .btn-sub{
+    width: 40%;
+    font-size: 1rem;
+    line-height: 1.3rem;
+    }
+
+    /* footer */
+    .footer{
+    grid-template-columns: 1fr;
+    gap: 20px;
+    padding: 24px 16px;
+    width: 100%;
+    margin: 50px 0;
     }
 
 }
