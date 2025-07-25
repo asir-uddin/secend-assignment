@@ -249,6 +249,10 @@
     border-radius: 14px;
     top: 0;
 }
+.deco{
+    position: relative;
+    z-index: 4;
+}
 .deco h4{
     font-size: 1.4rem;
     font-family: "Noto Serif", serif;
@@ -340,9 +344,9 @@
     .navber{
         padding: 13px 16px 0;
     }
-    nav-logo{
+    .nav-logo{
     width: 63px;
-    height: 38px;
+    height: auto;
     }
     .hide{
         display: none;
@@ -373,7 +377,7 @@
 
     /* <!-- our plant card --> */
     .body{
-        padding: 48px 16px;
+        padding: 0px 16px;
     }
     .plan-title{
         font-size: 1.5rem;
@@ -425,8 +429,9 @@
 
     /* latest deal */
     .offer-box{
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr ;
     margin: 50px auto;
+    grid-template-rows: 1fr 1fr 1fr;
     }
     .offer-box-child-2,
     .offer-box-child-3  {
@@ -469,7 +474,7 @@
     gap: 20px;
     padding: 24px 16px;
     width: 100%;
-    margin: 50px 0;
+    margin: 26px 0;
     }
     .social-logo{
         justify-content: flex-start;
