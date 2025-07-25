@@ -11,7 +11,7 @@
     "wdth" 100;
 }
 .inter-normal {
-  font-family: "Inter", sans-serif;
+  font-family: "Inter";
   font-optical-sizing: auto;
   font-weight: normal;
   font-style: normal;
@@ -31,6 +31,7 @@
 .nav-logo{
     width: 135px;
     height: 82px;
+    cursor: pointer;
 }
 .nav-item{
     display: flex;
@@ -42,6 +43,22 @@
 .nav-item li{
     list-style: none;
     margin-left: 48px;
+    cursor: pointer;
+}
+.home{
+    font-size: 1rem;
+    font-family: "Inter";
+    font-weight: 700;
+    color: #252432;
+}
+.item{
+    font-size: 1rem;
+    line-height: 1.5rem;
+    font-family: "Inter";
+    font-weight: 400;
+    color: #8987A1;
+    list-style: none;
+    cursor: pointer;
 }
 .shopping-card{
     display: flex;
@@ -50,6 +67,7 @@
     justify-content: space-between;
     align-items: center;
     gap: 8px;
+    color: #000000;
 }
 
 
@@ -79,7 +97,15 @@
 .left-box-contant, .color-tip{
     color: #E95A08;
 }
-.left-box-contant p{
+.left-box-contant,  p{
+    font-size: 1.3rem;
+    color: #000000;
+    font-family: inter;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: 1.7rem;
+}
+.normal-font{
     font-size: 1.3rem;
     color: #000000;
     font-family: inter;
@@ -98,6 +124,12 @@
 .our-plan{
     text-align: center;
 }
+.plan-title{
+    font-size: 3.25rem;
+    font-family: "Noto Serif", serif;
+    font-weight: 700;
+    margin-bottom: 16px;
+}
 
 .card-box{
     display: grid;
@@ -111,6 +143,34 @@
     flex-direction: column;
     flex-wrap: nowrap;
     align-items: center;
+}
+.card-contain h4{
+    font-size: 1.5rem;
+    font-family: "Noto Serif", serif;
+    font-weight: 400;
+    color: #111111;
+    letter-spacing: normal;
+    line-height: 1.6rem;
+    margin: 30px 0 16px;
+}
+.card-contain h5{
+    font-size: 1.5rem;
+    font-family: "Noto Serif", serif;
+    font-weight: 700;
+    color: #111111;
+    letter-spacing: normal;
+    line-height: 1.6rem;
+    margin: 0 0 16px;
+}
+.card-button{
+    background-color: #E95A08;
+    border: none;
+    padding: 26px 50px;
+    width: 100%;
+    font-size: 16px;
+    font-family: "Noto Serif", serif;
+    color: #ffffff;
+    font-weight: 600;
 }
 
 /* flower and plant */
@@ -129,10 +189,14 @@
     grid-template-columns: 1fr 1fr;
     align-items: center;
     margin-bottom: 134px;
+    gap: 50px;
 }
 .flower-dev img{
     width: 540px;
     height: 590px;
+}
+.margi-top{
+    margin-top: 20px;
 }
 
 /* latest deals */
@@ -170,6 +234,23 @@
     text-align: center;
     align-content: center;
 }
+.deco h4{
+    font-size: 1.4rem;
+    font-family: "Noto Serif", serif;
+    color: #ffffff;
+    font-weight: 700;
+    margin-bottom: 26px;
+}
+.btn-latest-deal{
+    font-size: 1rem;
+    font-family: "Noto Serif", serif;
+    font-weight: 600;
+    border: none;
+    background-color: transparent;
+    color: #fff;
+    text-decoration: underline;
+    cursor: pointer;
+}
 
 /* join us */
 .join-us{
@@ -181,21 +262,61 @@
     text-align: center;
     align-content: center;
 }
+.join-wrapper h3{
+    font-size: 3.2rem;
+    font-family: "Noto Serif", serif;
+    color: #ffffff;
+    font-weight: 700;
+    margin-bottom: 23px;
+}
+.btn-style{
+    width: 830px;
+    margin: 0 auto;
+}
+.btn-email{
+    width: 68%;
+    padding: 8px 20px;
+    color: #000000;
+    font-size: 1rem;
+    font-weight: 400;
+}
+.btn-sub{
+    width: 25%;
+    padding: 9px 20px;
+    font-size: 1rem;
+    font-weight: 600;
+    background-color: #E95A08;
+    border: none;
+    color: #fff;
+    margin-left: -5px;
+}
 
 /* footer */
 .footer{
     display: grid;
-    grid-template-columns: 3fr 3fr 3fr 3fr;
+    grid-template-columns: 4fr 3fr 3fr 3fr;
     width: 1140px;
     margin: 0 auto;
     justify-content: space-between;
     padding: 50px 0;
+    column-gap: 70px;
+}
+.footer-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 24px;
+}
+.footer-pragraph{
+    margin-top: 16px;
 }
 .social-logo{
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
     align-items: flex-start;
+    gap: 24px;
 }
   
     
