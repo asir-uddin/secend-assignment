@@ -333,5 +333,68 @@
     align-items: flex-start;
     gap: 24px;
 }
+
+@media (max-width:767px) {
+    .container-box{
+    flex-direction: column-reverse;
+    margin: 28px 0;
+    padding: 0 16px;
+    }
+    .left-box-contant , 
+    .right-box-container{
+        width: 100%;
+    }
+    .left-box-contant h2{
+    font-size: 1.5rem;
+    line-height: 1.6rem;
+    }
+    .left-box-contant p{
+    font-size: 0.9rem;
+    line-height: 1.3rem;
+    }
+    .header-bg{
+    width: 100%;
+    margin-bottom: 24px;
+    }
+
+    /* <!-- our plant card --> */
+    .body{
+        padding: 48px 16px;
+    }
+    .plan-title{
+        font-size: 1.5rem;
+    }
+    .normal-font{
+    font-size: 0.9rem;
+    line-height: 1.3rem;
+    }
+    .card-box{
+    margin: 28px 0;
+    grid-template-columns: repeat(2, 1fr);
+    }
+    /* .card-contain{
+        width: 50%;
+    } */
+    .card-contain img{
+        width: 100%;
+    }
+    .card-contain h4{
+    font-size: 1rem;
+    line-height: 1.4rem;
+    margin: 16px 0 4px;
+    }
+    .card-contain h5{
+    font-size: 1rem;
+    line-height: 1.4rem;
+    margin-bottom: 16px;
+    }
+    .card-button{
+    width: 100%;
+    padding: 8px 10px;
+    font-size: 14px;
+    line-height: 16px;
+    }
+
+}
   
     
